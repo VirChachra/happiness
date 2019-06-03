@@ -6,7 +6,7 @@ library(FactoMineR)
 library(leaflet)
 library(tmap)
 
-
+setwd("C:/Users/virch/Documents/GitHub/happiness")
 data_17 <- read.csv("2017.csv")
 
 str(data_17)
